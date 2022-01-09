@@ -4,5 +4,3 @@ function square(input) {
 
   console.log(answer);
 }
-
-square(["1", "2", "3", "4", "5", "6"]);
