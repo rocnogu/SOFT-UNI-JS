@@ -10,5 +10,3 @@ function nums1To10() {
   console.log(9);
   console.log(10);
 }
-
-nums1To10();

@@ -1,6 +1,6 @@
 function projects2(input) {
   let firstName = input[0];
-  let projectsNumber = input[1];
+  let projectsNumber = Number(input[1]);
   let projectsHours = projectsNumber * 3;
 
   console.log(
