@@ -19,5 +19,3 @@ function Supplies(input) {
     priceBeforeReduction - priceBeforeReduction * reductionPercent;
   console.log(reductedPrice);
 }
-
-Supplies(["2 ", "3 ", "4 ", "25 "]);
