@@ -36,12 +36,10 @@ function Toy(input) {
   const profit = totalToysPrice - rent;
   let moneyLeft = profit - tripPrice;
   //
-  if (profit > tripPrice) {
+  if (profit >= tripPrice) {
     console.log(`Yes! ${moneyLeft.toFixed(2)} lv left.`);
   } else {
     moneyLeft *= -1;
     console.log(`Not enough money! ${moneyLeft.toFixed(2)} lv needed.`);
   }
 }
-//
-Toy(["140.8", "1", "2", "3", "4", "5"]);
