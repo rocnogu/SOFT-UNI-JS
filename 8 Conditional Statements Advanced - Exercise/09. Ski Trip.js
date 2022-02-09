@@ -1,8 +1,6 @@
 function skiTrip(input) {
-  //// Вход
   let dayOfStay = Number(input[0]);
   let typeRoom = input[1];
-  // •	Трети ред - оценка - "positive"  или "negative"
   let rating = input[2];
   //
   let priceRoom = 0;
@@ -32,7 +30,7 @@ function skiTrip(input) {
       }
       break;
   }
-
+  //
   if (rating == "positive") {
     priceRoom *= 1.25;
   } else {
