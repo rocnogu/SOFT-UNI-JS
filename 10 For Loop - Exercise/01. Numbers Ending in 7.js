@@ -1,4 +1,8 @@
 numbersEnding = () => {
-  let numbers = 0;
+  for (let i = 0; i <= 999; i++) {
+    if (i % 10 === 7) {
+      console.log(i);
+    }
+  }
 };
-numbersEnding;
+numbersEnding();
